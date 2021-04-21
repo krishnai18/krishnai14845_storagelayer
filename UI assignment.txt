@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>.topnav{overflow:hidden;
+    justify-content: centre;}
+    .topnav a{
+    float:right;
+    display:block;
+    text-align:centre;
+    padding:10px 100px;
+    }
+    .column{
+    float:left;
+    width:50%;
+    padding:10px;
+    height:300px;
+    }
+    .row:after{
+      content:"";
+      display:table;
+      clear :both;  
+    }
+    *{
+        box-sizing:border-box;
+    }
+    .foo{
+      text-align: center ;
+      margin-top: 50px;
+    }
+    body{
+
+      background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+      background-size: cover ;
+      background-repeat: no-repeat;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+    <img src="LOGO.png" height="30">
+    <a href="#">CONTACT</a>
+
+    <a href="#">EVENTS</a>
+    <a href="#">CUSTOMERS</a>
+    <a href="#">HOME</a>
+    </div>
+
+    <div class="row">
+      <div class="column" >
+    <h2>About us</h2>
+    <p> Mastek is an Indian multinational technology company that offers enterprise level digital transformation services and software for large public and private enterprises in the UK, US and India. Mastek has more than 2,200 employees across the 11 offices it operates out of in the UK, US and India. The company is listed on the National Stock Exchange of India Limited under the symbol MASTEK and BSE under the 523704</p>
+      </div>
+
+      <div class="column">
+    <h2>Image</h2>
+    <img src ="https://images.moneycontrol.com/news_image_files/2014/356x200/m/Mastek_16X9_0114_356.jpg" alt="company" >
+      </div>
+    </div>
+     <div>
+    <footer><p class ="foo">THANK YOU...!</p></footer></div>
+</body>
+</html>
